@@ -11,9 +11,8 @@ def initialize(email)
   @email = email
 end
 
-def email_parser(email)
-binding.pry
-
+def parse
+  binding.pry
 end
 
 end
