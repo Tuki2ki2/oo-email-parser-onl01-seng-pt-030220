@@ -11,7 +11,7 @@ def initialize
   @email_addresses = email_addresses
 end
 
-def parse
+def parse(email_addresses)
 
   binding.pry
 end
