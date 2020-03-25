@@ -8,14 +8,13 @@ class EmailAddressParser
 attr_accessor :email_addresses
 
 def initialize
-  @email_addresses = email_addresses
 end
 
 def parse
 email_addresses.each do |a|
   a.split(" ")
 end
-email_addresses  
+email_addresses
 end
 
 end
