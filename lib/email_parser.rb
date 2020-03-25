@@ -9,7 +9,7 @@ attr_accessor :email_addresses
 
 
 def parse
-email_addresses.each do |a|
+@email_addresses.each do |a|
   a.split(" ")
 end
 email_addresses
