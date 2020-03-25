@@ -12,7 +12,7 @@ def initialize(email)
 end
 
 def parse
-  binding.pry
+  # binding.pry
 end
 
 end
