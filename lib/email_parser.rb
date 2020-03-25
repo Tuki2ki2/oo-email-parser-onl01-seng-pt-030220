@@ -8,7 +8,8 @@ class EmailAddressParser
 attr_accessor :email_addresses
 
 
-def parse(input)
+def parse
+  
   binding.pry
 end
 
